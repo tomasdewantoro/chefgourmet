@@ -82,7 +82,7 @@
                 <h3 class="primary-font">Teguh B. Utomo</h3>
                 <p class="font-italic font-weight-light">Professional Chef | F&B Consultant</p>
             </div>
-            <div class="offset-md-1 col-md-6 mb-5">
+            <div class="offset-md-1 col-md-6 mb-5 overflow-auto height-325">
                 <p>Dengan pengalaman selama 7 tahun sebagai seorang Chef di Cruiseline membuatnya memahami seluk beluk dunia F&B mulai dari production, service dan management.</p>
                 <p>Berbagai event dalam lingkup instansi pemerintahan hingga kenegaraan pernah ia handle dengan baik. Kemampuannya di bidang kuliner ini juga ia tuangkan dalam Chef Gourmet F&B Consultant untuk membantu setiap pelaku bisnis kuliner dapat menjalankan bisnisnya secara excellence.</p>
                 <p>Adapun beberapa pendidikan yang pernah ia tempuh dalam dunia F&B diantaranya:</p>
@@ -95,7 +95,7 @@
             </div>
 
 
-            <div class="offset-md-1 col-md-6 mt-5">
+            <div class="offset-md-1 col-md-6 my-5 overflow-auto height-325">
                 <p>Menjalani karir sebagai seorang professional trainer dan coach sejak tahun 2010. Kecintaannya terhadap dunia perilaku manusia (human behavior) mengantarkannya pada pembelajaran seperti Neuro-Linguistic Programming, Psychology Positive, Design Human Engineering, Hypnotherapy dan teknologi pikiran (mind technology) terkini. Selain kesibukannya sebagai seorang trainer dan coach, ia juga pernah menjadi Head HRD di salah satu perusahaan start up.</p>
                 <p>Hingga saat ini telah tercatat lebih dari 5 Kementerian RI, lebih dari 60 perusahaan dalam skala nasional hingga multi nasional, BUMN dan organisasi-organisasi besar di Indonesia pernah ia bantu dalam proses pengembangan SDM yang lebih baik.</p>
                 <p>Beberapa pelatihan dengan sertifikasi yang pernah diikutinya baik dalam skala nasional maupun internasional diantaranya:</p>
