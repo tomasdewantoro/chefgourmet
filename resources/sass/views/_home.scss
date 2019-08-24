@@ -1,0 +1,272 @@
+body, html {
+    background:#111112;
+    margin:0;
+    z-index:-9999;
+    color:$text-color;
+}
+.logo img {
+    height:45px;
+    margin:20px 0 0 20px;
+}
+.home-header {
+    opacity: 0.5;
+    position:absolute;
+    top:0;
+    right:-150px;
+    background-image: url(../../images/header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-text {
+    height: calc(100vh - 70px);
+    span {
+        font-size:1.2rem;
+        cursor: pointer;
+        transition:0.3s;
+    }
+    span:hover {
+        background-color:$orange;
+        color:$text-color!important;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+}
+.zindex-2{
+    z-index: 2;
+}
+.section-space {
+    margin-top:130px;
+}
+//experiences
+.experiences {
+    li {
+        font-size:1.3rem;
+        margin-bottom:1.5rem;
+    }
+}
+
+.experience-a {
+    width:300px;
+    height: 450px;
+    background-image: url(../../images/experience-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top:-20px;
+}
+.experience-b {
+    width:300px;
+    height: 450px;
+    background-image: url(../../images/experience-2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top:-150px;
+    left:130px;
+}
+
+//floating elements
+.pizza {
+    background-image: url(../../images/floating/pizza.png);
+    height:400px;
+    width:400px;
+    left:-150px;
+    margin-top:-150px;
+    position:absolute;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position:absolute;
+}
+.foods {
+    div {
+        background-image: url(../../images/floating/foods.png);
+        height:400px;
+        width:400px;
+        right:-40px;
+        background-size:contain;
+        position:absolute;
+        background-repeat: no-repeat;
+        transform:scaleX(-1);
+    }
+    margin-top:20px;
+    height:400px;
+    width:400px;
+    right:0;
+    position:absolute;
+}
+.fruitdrink {
+    background-image: url(../../images/floating/fruit-drink.png);
+    height:400px;
+    width:400px;
+    left:-150px;
+    margin-top:-50px;
+    position:absolute;
+    background-size:contain;
+    background-repeat: no-repeat;
+    transform:rotateZ(30deg);
+}
+.kayumanis {
+    div {
+        background-image: url(../../images/floating/kayu-manis.png);
+        height:400px;
+        width:400px;
+        right:-140px;
+        background-size:contain;
+        position:absolute;
+        background-repeat: no-repeat;
+        transform:scaleX(-1);
+    }
+    margin-top:20px;
+    height:400px;
+    width:400px;
+    right:0;
+    position:absolute;
+}
+.merica {
+    background-image: url(../../images/floating/merica.png);
+    height:350px;
+    width:350px;
+    left:-120px;
+    margin-top:0px;
+    position:absolute;
+    background-size:contain;
+    background-repeat: no-repeat;
+    transform:rotateZ(30deg);
+}
+.image-text {
+    position:relative;
+    margin-top:-33px;
+    background-color:rgba(17,17,18,.82);
+    width:100%;
+    padding:5px 8px;
+}
+
+.gallery {
+    column-count: 3;
+    div {
+        width: 100%; padding: 7px 0;
+    }
+}
+
+.paket-const {
+    background-color:$bg-hl;
+    padding:15px 100px;
+    border-radius:50px;
+    display:inline-block;
+}
+@media (max-width: 500px) {
+    .logo img {
+        height:30px;
+        margin:15px 0 0 0;
+    }
+    .home-header {
+        right:0;
+    }
+    .section-space {
+        margin-top:60px;
+    }
+    //experiences
+    .experiences {
+        li {
+            font-size:1rem;
+            margin-bottom:1.2rem;
+        }
+    }
+
+    .experiencemobile-a {
+        background-image: url(../../images/experience-1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 150px;
+        height: 225px;
+        right: 20px;
+    }
+    .experiencemobile-b {
+        width: 150px;
+        height: 225px;
+        right: 0;
+        div {
+            background-image: url(../../images/experience-2.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 150px;
+            height: 225px;
+            position:absolute;
+            right:-30px;
+        }
+    }
+    
+    //floating elements
+    .pizza {
+        height:200px;
+        width:200px;
+        left:-120px;
+        margin-top:-70px;
+    }
+    .foods {
+        div {
+            background-image: url(../../images/floating/foods.png);
+            height:250px;
+            width:250px;
+            right:-40px;
+            background-size:contain;
+            position:absolute;
+            background-repeat: no-repeat;
+            transform:scaleX(-1);
+        }
+        margin-top:20px;
+        height:250px;
+        width:250px;
+        right:0;
+        margin-top:-50px;
+        position:absolute;
+    }
+    .fruitdrink {
+        background-image: url(../../images/floating/fruit-drink.png);
+        height:200px;
+        width:200px;
+        left:-80px;
+        margin-top:30px;
+        position:absolute;
+        background-size:contain;
+        background-repeat: no-repeat;
+        transform:rotateZ(30deg);
+    }
+    .kayumanis {
+        div {
+            height:150px;
+            width:150px;
+            right:-80px;
+        }
+        margin-top:20px;
+        height:150px;
+        width:150px;
+        right:0;
+    }
+    .merica {
+        height:150px;
+        width:150px;
+        left:-90px;
+        margin-top:-20px;
+    }
+    .gallery {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+    }
+    .paket-const {
+        padding:10px 40px;
+        margin-left:-45px;
+        border-radius:50px;
+        display:inline-block;
+    }
+}
+
+.height-200 {
+    height:200px;
+    background-color:#1F2022;
+    padding:15px;
+}
+
+.whatsapp {
+    bottom:20px;
+    right:20px;
+    z-index:9999;
+}

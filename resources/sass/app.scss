@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@font-face {
+    font-family: 'Aliando Rocky';
+    src: url(../fonts/AliandoRocky.ttf) format('truetype');
+}
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'general';
+@import 'typography';
+@import 'colorpallete';
+@import 'elements/buttons';
+@import 'elements/adds';
+
+@import 'views/home';
