@@ -206,12 +206,14 @@
 
             <div class="col-md-12 text-center section-space">
             </div>
+        </div>
+    </section>
 
-
+    <footer>
+        <div class="container">
             <div class="d-flex w-100">
-                <div class="alamat">
-                    <h6 class="font-weight-bold">Contact Us Now:</h6>
-                    <p class="font-italic">JL. Asem Jaya VII No.3 Surabaya, Jawa Timur <br /> 0812 7689 1513</p>
+                <div class="alamat d-flex float-left justify-content-between">
+                    <h5><span class="font-weight-bold">Contact Us Now: </span><span class="font-italic">JL. Asem Jaya VII No.3 Surabaya, Jawa Timur</span></h5><h5><span class="font-weight-bold">Phone: </span>0812 7689 1513</h5>
                 </div>
                 <div class="alamat-end"></div>
             </div>
@@ -223,12 +225,11 @@
                     <a href="https://facebook.com"><img src="{{ asset('/images/facebook.png') }}" width="100%" alt=""></a>
                 </div>
             </div>
-            <footer class="container">
-                
-                    <span class="text-center font-italic font-weight-light">Gourmet Chef © 2019.All right reserved. Developed by <a target="_blank" href="https://codein.id" class="text-color font-weight-bold">Codein.ID</a></span>
-            </footer>
         </div>
-    </section>
+        <div class="w-100">
+            <span class="text-center font-italic font-weight-light d-block copyright w-100">Gourmet Chef © 2019.All right reserved. Developed by <a target="_blank" href="https://codein.id" class="text-color font-weight-bold">Codein.ID</a></span>
+        </div>
+    </footer>
 
 
     <script src="{{ mix('js/app.js') }}"></script>
