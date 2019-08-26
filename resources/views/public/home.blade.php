@@ -214,7 +214,18 @@
         <div class="container">
             <div class="d-flex w-100">
                 <div class="alamat d-flex float-left justify-content-between">
-                    <h5><span class="font-weight-bold">Contact Us Now: </span><span class="font-italic">JL. Asem Jaya VII No.3 Surabaya, Jawa Timur</span></h5><h5><span class="font-weight-bold">Phone: </span>0812 7689 1513</h5>
+                    <h5>
+                        <span class="font-weight-bold">Contact Us Now: </span><br/>
+                        <span class="font-italic">JL. Asem Jaya VII No.3 Surabaya, Jawa Timur</span>
+                    </h5>
+                    <h5>
+                        <span class="font-weight-bold">Email: </span><br/>
+                        <span class="font-italic" style="letter-spacing:0.8px">project@gourmetchef.id</span>
+                    </h5>
+                    <h5>
+                        <span class="font-weight-bold">Phone: </span><br/>
+                        <span class="font-italic">0812 7689 1513</span>
+                    </h5>
                 </div>
                 <div class="alamat-end"></div>
             </div>
