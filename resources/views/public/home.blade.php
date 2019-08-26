@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Chef Gourmet Consultant - Konsultasi Bisnis Kuliner</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
@@ -19,9 +20,9 @@
         </div>
         <div class="home-header vh-100 w-100"></div>
     </header>
-    <div class="pizza"></div>
+    <div id="pizza" class="pizza"></div>
     <section class="container section-space">
-        <div class="row">
+        <div class="row zindex-2">
             <div class="offset-md-1 col-md-11 section-space">
                 <h2 class="primary-font display-4 mb-5">Experience</h2>
             </div>
@@ -41,7 +42,7 @@
             </div>
         </div>
     </section>
-    <div class="foods overflow-hidden"><div></div></div>
+    <div id="foods" class="foods overflow-hidden"><div></div></div>
     <section class="container section-space">
         <div class="row">
             <div class="offset-md-1 col-md-11 section-space">
@@ -230,7 +231,6 @@
             <span class="text-center font-italic font-weight-light d-block copyright w-100">Gourmet Chef © 2019.All right reserved. Developed by <a target="_blank" href="https://codein.id" class="text-color font-weight-bold">Codein.ID</a></span>
         </div>
     </footer>
-
 
     <script src="{{ mix('js/app.js') }}"></script>
 </body>

@@ -50,7 +50,12 @@ body, html {
     background-image: url(../../images/experience-1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    top:-20px;
+    top:0;
+    left:0;
+    transform: translate( 
+        calc(calc(var(--mouse-x) / 1.5 * -1) + 120px),
+        calc(calc(var(--mouse-y) / 2.5 * -1) + 20px)
+    );
 }
 .experience-b {
     width:300px;
