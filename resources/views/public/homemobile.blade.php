@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Chef Gourmet Consultant - Konsultasi Bisnis Kuliner</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
@@ -18,8 +19,11 @@
             </div>
         </div>
         <div class="home-header vh-100 w-100"></div>
+    
     </header>
-    <div class="pizza"></div>
+    
+    <div id="pizza" class="pizza"></div>
+
     <section class="container section-space">
         <div class="row">
             <div class="offset-md-1 col-md-11 section-space">
@@ -37,7 +41,9 @@
             </div>
         </div>
     </section>
-    <div class="foods overflow-hidden"><div></div></div>
+
+    <div id="foods" class="foods overflow-hidden"><div></div></div>
+
     <section class="container section-space">
         <div class="row">
             <div class="offset-md-1 col-md-11 section-space">
@@ -67,6 +73,7 @@
             </div>
         </div>
     </section>
+
     <section class="container section-space">
         <div class="row">
             <div class="offset-md-1 col-md-11 section-space">
@@ -200,19 +207,26 @@
             <div class="col-12 mb-2 overflow-auto height-200" style="height:auto">
                 <p>Paket yang dapat disesuaikan dengan kebutuhan dan keadaan bisnis Anda ini juga merupakan program unggulan kami. Dan kami bantu Anda dalam menentukan desain program yang sesuai</p>
             </div>
-
-            <div class="col-md-12 text-center section-space">
-                <h6>CONTACT US NOW :</h6>
-                <p>JL. ASEM JAYA VII NO.3 SURABAYA, JAWA TIMUR</p>
-                <p>0812 7689 1513</p>
-            </div>
-
-            <img src="{{ asset('/images/map.png') }}" width="100%" alt="">
-            <footer class="container">
-                <span class="text-center font-italic font-weight-light">Gourmet Chef © 2019.All right reserved. Developed by <a target="_blank" href="https://codein.id" class="text-color font-weight-bold">Codein.ID</a></span>
-            </footer>
         </div>
     </section>
+
+    <footer>
+        <div class="col-md-12 section-space text-center">
+            <h6 class="font-weight-bold mb-0">Contact Us:</h6>
+            <p class="font-italic">JL. Asem Jaya VII No.3 Surabaya, Jawa Timur</p>
+            <h6 class="font-weight-bold mb-0">Email:</h6>
+            <p class="font-italic">project@gourmetchef.id</p>
+            <h6 class="font-weight-bold mb-0">Phone:</h6>
+            <p class="font-italic">0812 7689 1513</p>
+        </div>
+        <div class="social-icons-mobile d-flex justify-content-center px-5">
+            <a href="https://whatsapp.com"><img src="{{ asset('/images/whatsapp2.png') }}" width="100%" alt=""></a>
+            <a href="https://www.instagram.com/gourmetchef_counsultant/"><img src="{{ asset('/images/instagram.png') }}" width="100%" alt=""></a>
+            <a href="https://facebook.com"><img src="{{ asset('/images/facebook.png') }}" width="100%" alt=""></a>
+        </div>
+        <img src="{{ asset('/images/map.png') }}" width="100%" alt="">
+        <span class="d-block text-center font-italic font-weight-light mx-2 my-2">Gourmet Chef © 2019.All right reserved.<br/> Developed by <a target="_blank" href="https://codein.id" class="text-color font-weight-bold">Codein.ID</a></span>
+    </footer>
 
     @if($agent == true)
     <a href="https://api.whatsapp.com/send?phone=6282112912033&text=Hallo Gourmet Chef..." class="whatsapp position-fixed"><img src="{{ asset('/images/whatsapp.png') }}"  width="55px" alt=""></a>
