@@ -57,19 +57,19 @@
                 <div class="image-text">Canoe Coffee, Surabaya</div>
             </div>
             <div>
-                <img src="{{ asset('/images/prague.png') }}" width="100%" alt="">
+                <img src="{{ asset('/images/prague.jpg') }}" width="100%" alt="">
                 <div class="image-text">Prague Coffee & Eatery, Madiun</div>
             </div>
             <div>
-                <img src="{{ asset('/images/kontjo-lawas.png') }}" width="100%" alt="">
+                <img src="{{ asset('/images/kontjo-lawas.jpg') }}" width="100%" alt="">
                 <div class="image-text">Kontjo Lawas, Mojokerto</div>
             </div>
             <div>
-                <img src="{{ asset('/images/item-kopi.png') }}" width="100%" alt="">
+                <img src="{{ asset('/images/item-kopi.jpg') }}" width="100%" alt="">
                 <div class="image-text">Item Kopi, Ponorogo</div>
             </div>
             <div>
-                <img src="{{ asset('/images/kabinet-coffee.png') }}" width="100%" alt="">
+                <img src="{{ asset('/images/kabinet-coffee.jpg') }}" width="100%" alt="">
                 <div class="image-text">Kabinet Coffee, Surabaya</div>
             </div>
         </div>
@@ -232,7 +232,7 @@
                 <div class="alamat-end"></div>
             </div>
             <div class="d-flex">
-                <img src="{{ asset('/images/map.png') }}" class="map-img" alt="">
+                <img src="{{ asset('/images/map.jpg') }}" class="map-img" alt="">
                 <div class="social-icons">
                     <a href="https://whatsapp.com"><img src="{{ asset('/images/whatsapp2.png') }}" width="100%" alt=""></a>
                     <a href="https://www.instagram.com/gourmetchef_counsultant/"><img src="{{ asset('/images/instagram.png') }}" width="100%" alt=""></a>

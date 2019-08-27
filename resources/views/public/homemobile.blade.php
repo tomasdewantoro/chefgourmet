@@ -58,19 +58,19 @@
                 <div class="image-text">Canoe Coffee, Surabaya</div>
             </div>
             <div>
-                <img src="{{ asset('/images/prague.png') }}" width="100%" alt="">
+                <img src="{{ asset('/images/prague.jpg') }}" width="100%" alt="">
                 <div class="image-text">Prague Coffee & Eatery, Madiun</div>
             </div>
             <div>
-                <img src="{{ asset('/images/kontjo-lawas.png') }}" width="100%" alt="">
+                <img src="{{ asset('/images/kontjo-lawas.jpg') }}" width="100%" alt="">
                 <div class="image-text">Kontjo Lawas, Mojokerto</div>
             </div>
             <div>
-                <img src="{{ asset('/images/item-kopi.png') }}" width="100%" alt="">
+                <img src="{{ asset('/images/item-kopi.jpg') }}" width="100%" alt="">
                 <div class="image-text">Item Kopi, Ponorogo</div>
             </div>
             <div>
-                <img src="{{ asset('/images/kabinet-coffee.png') }}" width="100%" alt="">
+                <img src="{{ asset('/images/kabinet-coffee.jpg') }}" width="100%" alt="">
                 <div class="image-text">Kabinet Coffee, Surabaya</div>
             </div>
         </div>
@@ -226,7 +226,7 @@
             <a href="https://www.instagram.com/gourmetchef_counsultant/"><img src="{{ asset('/images/instagram.png') }}" width="100%" alt=""></a>
             <a href="https://facebook.com"><img src="{{ asset('/images/facebook.png') }}" width="100%" alt=""></a>
         </div>
-        <img src="{{ asset('/images/map.png') }}" width="100%" alt="">
+        <img src="{{ asset('/images/map.jpg') }}" width="100%" alt="">
         <span class="d-block text-center font-italic font-weight-light mx-2 my-2">Gourmet Chef © 2019.All right reserved.<br/> Developed by <a target="_blank" href="https://codein.id" class="text-color font-weight-bold">Codein.ID</a></span>
     </footer>
 
