@@ -11,8 +11,24 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="logo navbar-brand"><img class="mx-0 my-0" src="{{ asset('/images/logo.png') }}" alt=""></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 pr-3 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{URL('/post')}}">Blog</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
     <header class="vh-100 position-relative overflow-hidden container-fluid">
-        <div class="logo zindex-fixed"><img src="{{ asset('/images/logo.png') }}" alt=""></div>
         <div class="zindex-2 d-flex position-relative text-color col-md-6 ml-5 align-items-center header-text">
             <div>
                 <h1 class="primary-font display-2">Food and Beverage <br/>Consultant</h1>
@@ -212,38 +228,7 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="d-flex w-100">
-                <div class="alamat d-flex float-left justify-content-between">
-                    <h5>
-                        <span class="font-weight-bold">Contact Us Now: </span><br/>
-                        <span class="font-italic">JL. Asem Jaya VII No.3 Surabaya, Jawa Timur</span>
-                    </h5>
-                    <h5>
-                        <span class="font-weight-bold">Email: </span><br/>
-                        <span class="font-italic" style="letter-spacing:0.8px">project@gourmetchef.id</span>
-                    </h5>
-                    <h5>
-                        <span class="font-weight-bold">Phone: </span><br/>
-                        <span class="font-italic">0812 7689 1513</span>
-                    </h5>
-                </div>
-                <div class="alamat-end"></div>
-            </div>
-            <div class="d-flex">
-                <img src="{{ asset('/images/map.jpg') }}" class="map-img" alt="">
-                <div class="social-icons">
-                    <a href="https://whatsapp.com"><img src="{{ asset('/images/whatsapp2.png') }}" width="100%" alt=""></a>
-                    <a href="https://www.instagram.com/gourmetchef_counsultant/"><img src="{{ asset('/images/instagram.png') }}" width="100%" alt=""></a>
-                    <a href="https://facebook.com"><img src="{{ asset('/images/facebook.png') }}" width="100%" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="w-100">
-            <span class="text-center font-italic font-weight-light d-block copyright w-100">Gourmet Chef © 2019.All right reserved. Developed by <a target="_blank" href="https://codein.id" class="text-color font-weight-bold">Codein.ID</a></span>
-        </div>
-    </footer>
+    @include('public.footer.footer')
 
     <script src="{{ mix('js/app.js') }}"></script>
 </body>

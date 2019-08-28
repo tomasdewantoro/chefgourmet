@@ -11,11 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/', 'HomepageController@index');
+
+Route::get('/post', 'PostController@index');
+Route::get('/post/{post_slug}', 'PostController@singlepost');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
