@@ -4,7 +4,15 @@
 .text-dark {
     color:#111112;
 }
-
+.bg-maindark {
+    background:#111112;
+}
+.bg-text {
+    background:#1F2022;
+}
+.hl-bg-text:hover {
+    background:#111112;
+}
 .bg-highlight {
     background-color:$bg-hl;
 }

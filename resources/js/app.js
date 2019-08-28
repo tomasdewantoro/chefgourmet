@@ -7,6 +7,12 @@
 require('./bootstrap');
 require('./animations/mouseeffect');
 require('./animations/transformscroll');
+
+//carousel posts
+$('.carousel').carousel({
+    interval: 5000
+  })
+  
 /**
 window.Vue = require('vue');
 
