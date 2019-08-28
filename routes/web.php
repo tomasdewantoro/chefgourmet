@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/', 'HomepageController@index');
 
 Route::group(['prefix' => 'admin'], function () {
