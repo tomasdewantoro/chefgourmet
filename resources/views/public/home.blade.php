@@ -112,35 +112,6 @@
                     <li>2011 : Basic Safety Training from Focus Maritime Training Centre</li>
                 </ul>
             </div>
-
-
-            <div class="offset-md-1 col-md-6 my-5 overflow-auto height-325">
-                <p>Menjalani karir sebagai seorang professional trainer dan coach sejak tahun 2010. Kecintaannya terhadap dunia perilaku manusia (human behavior) mengantarkannya pada pembelajaran seperti Neuro-Linguistic Programming, Psychology Positive, Design Human Engineering, Hypnotherapy dan teknologi pikiran (mind technology) terkini. Selain kesibukannya sebagai seorang trainer dan coach, ia juga pernah menjadi Head HRD di salah satu perusahaan start up.</p>
-                <p>Hingga saat ini telah tercatat lebih dari 5 Kementerian RI, lebih dari 60 perusahaan dalam skala nasional hingga multi nasional, BUMN dan organisasi-organisasi besar di Indonesia pernah ia bantu dalam proses pengembangan SDM yang lebih baik.</p>
-                <p>Beberapa pelatihan dengan sertifikasi yang pernah diikutinya baik dalam skala nasional maupun internasional diantaranya:</p>
-                <ul>
-                    <li>Certified NLP Practitioner from NFNLP, Florida-USA</li>
-                    <li>Certified NNLP Practitioner from Neo NLP Society</li>
-                    <li>Certified NNLP Master Practitioner from Neo NLP Society</li>
-                    <li>Certified NNLP Trainer from Neo NLP Society</li>
-                    <li>Certified NNLP Master Trainer from Neo NLP Society</li>
-                    <li>Certified NLP CoachTM from NLP Coach Association</li>
-                    <li>Certified NLP Coach Trainer from NLP Coach Association</li>
-                    <li>Certified Neuro Powerfull Communication Skill from HRNLP Indonesia</li>
-                    <li>Certified Neuro Powerfull Performance Improvement from HRNLP Indonesia</li>
-                    <li>Certified Competence as Communicator from HRNLP Indonesia</li>
-                    <li>Certified Hypnotist from The Indonesian Board of Hypnotherapy</li>
-                    <li>Certified Hypnotherapist from The Indonesian Board of Hypnotherapy</li>
-                    <li>Certified Instructor from The Indonesian Board of Hypnotherapy</li>
-                    <li>Certified Hypnosis in History from American Hypnosis Association</li>
-                    <li>Qualified Hypnotist from American Alliance of Hypnotist</li>
-                </ul>
-            </div>
-            <div class="offset-md-1 col-md-3 text-center mt-5">
-                <img class="mb-3" src="{{ asset('/images/idrus.png') }}" width="100%" alt="">
-                <h3 class="primary-font">Idrus Putra</h3>
-                <p class="font-italic font-weight-light">Human Development Specialist | G-Trainer | NLP Life Coach | HR Consultant</p>
-            </div>
         </div>
     </section>
 
