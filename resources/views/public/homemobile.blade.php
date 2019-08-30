@@ -17,7 +17,7 @@
             <div>
                 <h1 class="primary-font">Food and Beverage <br/>Consultant</h1>
                 <h2 class="font-italic fsize-16">Dengan pengalaman lebih dari 10 tahun di lingkup restoran dan cafe dari bintang tiga sampai lima bertaraf internasional.</h2>
-                <span class="btn-round bg-highlight text-dark font-weight-bold d-inline-block mt-3">Lihat Paket</span>
+                <a href="#paket" class="btn-round bg-highlight text-dark font-weight-bold d-inline-block mt-3">Lihat Paket</a>
             </div>
         </div>
         <div class="home-header vh-100 w-100"></div>
@@ -105,7 +105,7 @@
     <div class="kayumanis overflow-hidden"><div></div></div>
     <div class="merica"></div>
 
-    <section class="container-fluid section-space">
+    <section id="paket" class="container-fluid section-space">
         <div class="row">
             <div class="col-md-12">
                 <h2 class="text-center primary-font mb-5">Paket Consultant</h2>

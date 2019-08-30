@@ -33,7 +33,7 @@
             <div>
                 <h1 class="primary-font display-2">Food and Beverage <br/>Consultant</h1>
                 <h2 class="font-italic">Dengan pengalaman lebih dari 10 tahun di lingkup restoran dan cafe dari bintang tiga sampai lima bertaraf internasional.</h2>
-                <a href="#experience" class="btn-round bg-highlight text-dark font-weight-bold d-inline-block mt-3">Lihat Paket</a>
+                <a href="#paket" class="btn-round bg-highlight text-dark font-weight-bold d-inline-block mt-3">Lihat Paket</a>
             </div>
         </div>
         <div class="home-header vh-100 w-100"></div>
@@ -121,7 +121,7 @@
     <section class="container section-space">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center primary-font display-3 mb-5">Paket Consultant</h2>
+                <h2 id="paket" class="text-center primary-font display-3 mb-5">Paket Consultant</h2>
             </div>
             <div class="col-md-12 mb-2 text-center">
                 <h2 class="primary-font paket-const text-dark">Paket 01. Start Up!</h2>
