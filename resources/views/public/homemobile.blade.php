@@ -147,32 +147,54 @@
             </div>
 
             <div class="col-md-6 mb-2">
-                <h3 class="primary-font paket-const text-dark">Paket 02. People Development</h3>
+                <h3 class="primary-font paket-const text-dark">Paket 02</h3>
             </div>
-            <div class="col-12 mb-5 overflow-auto height-200" style="height:auto">
+            <div class="col-12 mb-5 overflow-auto height-200">
                 <ul>
-                    <li>Training & Coaching untuk SDM</li>
-                    <li>Leader as Coach</li>
-                    <li>Uplifting Service Excellence</li>
-                    <li>Engagement & Team Work Building</li>
+                    <li>Menentukan konsep menu makanan dan minuman</li>
+                    <li>Membuat HPP receipe baku dan penentuan harga jual</li>
+                    <li>Recruitment karyawan produksi</li>
+                    <li>Penentuan Equipment dan Utensil Kitchen</li>
+                    <li>Memberikan informasi data supplier</li>
+                    <li>Tes produk makanan dan minuman (material dibebankan pada customer)</li>
+                    <li>Pembuatan 30 food receipes & 25 beverages receipes</li>
+                    <li>Training penyimpanan bahan baku dan plating</li>
+                    <li>Pendampingan selama 2 bulan sampai Grand Opening</li>
                 </ul>
             </div>
             <div class="col-md-6 mb-2">
-                <h3 class="primary-font paket-const text-dark">Paket 03. Brand Activation</h3>
+                <h3 class="primary-font paket-const text-dark">Paket 03</h3>
             </div>
 
             <div class="col-12 mb-5 overflow-auto height-200" style="height:auto">
                 <ul>
-                    <li>Digital marketing strategy</li>
-                    <li>Foto & video product</li>
-                    <li>Content social media</li>
-                    <li>Optimasi media sosial beserta iklan selama 3 bulan awal</li>
-                    <li>Brand identity dan logo</li>
+                    <li>Mendapat semua paket 02</li>
+                    <li>Recruitment frontliner</li>
+                    <li>Training frontliner (Standart SOP bintang 5) yang meliputi Grooming, Up Selling, Product Knowledge, Standart Service, etc</li>
+                    <li>Pendampingan bisnis dan konsultasi selama 2 bulan setelah Grand Opening</li>
+                    <li>Manager in charge 2 bulan</li>
+                    <li>Jasa design interior (re layout area siting-sport area baru dan kichen)</li>
+                </ul>
+            </div>
+
+
+            <div class="col-md-6 mb-2">
+                <h3 class="primary-font paket-const text-dark">Paket 04</h3>
+            </div>
+
+            <div class="col-12 mb-5 overflow-auto height-200" style="height:auto">
+                <ul>
+                    <li>Desain Website</li>
+                    <li>Foto & Video Product</li>
+                    <li>Content Social Media</li>
+                    <li>Optimasi Social Media dan Iklan di Social Media selama 3 bulan awal</li>
+                    <li>Brand Identity dan Logo</li>
+                    <li>Desain buku menu</li>
                 </ul>
             </div>
 
             <div class="col-12 mb-2">
-                <h3 class="primary-font paket-const text-dark">Paket 04. Customize</h3>
+                <h3 class="primary-font paket-const text-dark">Paket 05. Customize</h3>
             </div>
             <div class="col-12 mb-2 overflow-auto height-200" style="height:auto">
                 <p>Paket yang dapat disesuaikan dengan kebutuhan dan keadaan bisnis Anda ini juga merupakan program unggulan kami. Dan kami bantu Anda dalam menentukan desain program yang sesuai</p>
