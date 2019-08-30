@@ -33,13 +33,13 @@
             <div>
                 <h1 class="primary-font display-2">Food and Beverage <br/>Consultant</h1>
                 <h2 class="font-italic">Dengan pengalaman lebih dari 10 tahun di lingkup restoran dan cafe dari bintang tiga sampai lima bertaraf internasional.</h2>
-                <span class="btn-round bg-highlight text-dark font-weight-bold d-inline-block mt-3">Lihat Paket</span>
+                <a href="#experience" class="btn-round bg-highlight text-dark font-weight-bold d-inline-block mt-3">Lihat Paket</a>
             </div>
         </div>
         <div class="home-header vh-100 w-100"></div>
     </header>
     <div id="pizza" class="pizza"></div>
-    <section class="container section-space">
+    <section id="experience" class="container section-space">
         <div class="row zindex-2">
             <div class="offset-md-1 col-md-11 section-space">
                 <h2 class="primary-font display-4 mb-5">Experience</h2>
