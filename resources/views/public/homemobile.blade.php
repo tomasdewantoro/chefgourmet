@@ -93,7 +93,7 @@
                 <p>Berbagai event dalam lingkup instansi pemerintahan hingga kenegaraan pernah ia handle dengan baik. Kemampuannya di bidang kuliner ini juga ia tuangkan dalam Chef Gourmet F&B Consultant untuk membantu setiap pelaku bisnis kuliner dapat menjalankan bisnisnya secara excellence.</p>
                 <p>Adapun beberapa pendidikan yang pernah ia tempuh dalam dunia F&B diantaranya:</p>
                 <ul>
-                    <li>2005-2009 AKPAR NHI Bandung : Food Production Management</li>
+                    <li>2005-2009 Berlian Tourism Institute Bogor : Food Production Management</li>
                     <li>2005 : Basic Training Pastry from Bogasari</li>
                     <li>2011 : Food Hygiene from from Focus Maritime Training Centre (ISO 2200)</li>
                     <li>2011 : Basic Safety Training from Focus Maritime Training Centre</li>
