@@ -10,7 +10,7 @@ class HomepageController extends Controller
     public function index() {
         $agent = new Agent();
 
-        if($agent->isMobile()) {
+        if($agent->isMobile() || $agent->isAndroidOS()) {
             return view('public.homemobile', compact('agent'));
         }
         else {
