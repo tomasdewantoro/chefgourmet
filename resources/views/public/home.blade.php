@@ -241,5 +241,8 @@
     @include('public.footer.footer')
 
     <script src="{{ mix('js/app.js') }}"></script>
+    <script>
+    fbq('track', 'ViewContent');
+    </script>      
 </body>
 </html>

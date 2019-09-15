@@ -222,8 +222,15 @@
     @include('public.footer.footermobile')
 
     @if($agent == true)
-    <a href="https://api.whatsapp.com/send?phone=6282112912033&text=Hallo Gourmet Chef..." class="whatsapp position-fixed"><img src="{{ asset('/images/whatsapp.png') }}"  width="55px" alt=""></a>
+    <a id="contactButton" href="https://api.whatsapp.com/send?phone=6282112912033&text=Hallo Gourmet Chef..." class="whatsapp position-fixed"><img src="{{ asset('/images/whatsapp.png') }}"  width="55px" alt=""></a>
     @endif
     <script src="{{ mix('js/app.js') }}"></script>
+    <script>
+    fbq('track', 'ViewContent');
+
+    document.getElementById('contactButton').addEventListener('click', function() {
+        fbq('track', 'Contact');
+    }, false);
+    </script>
 </body>
 </html>
