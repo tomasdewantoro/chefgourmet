@@ -71,6 +71,10 @@
         </div>
         <div class="gallery" id="gallery">
             <div>
+                <img src="{{ asset('/images/communal.jpg') }}" width="100%" alt="">
+                <div class="image-text">Communal Coffee & Eatery, Surabaya</div>
+            </div>
+            <div>
                 <img src="{{ asset('/images/canoe-cofe.jpg') }}" width="100%" alt="">
                 <div class="image-text">Canoe Coffee, Surabaya</div>
             </div>

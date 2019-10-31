@@ -105,6 +105,10 @@
                 <img src="{{ asset('/images/kabinet-coffee.jpg') }}" width="100%" alt="">
                 <div class="image-text">Kabinet Coffee, Surabaya</div>
             </div>
+            <div>
+                <img src="{{ asset('/images/communal.jpg') }}" width="100%" alt="">
+                <div class="image-text">Communal Coffee & Eatery, Surabaya</div>
+            </div>
         </div>
     </section>
     <div class="fruitdrink"></div>
