@@ -21,7 +21,7 @@
         <div class="d-flex">
             <img src="{{ asset('/images/map.jpg') }}" class="map-img" alt="">
             <div class="social-icons">
-                <a href="https://whatsapp.com"><img src="{{ asset('/images/whatsapp2.png') }}" width="100%" alt=""></a>
+                <a href="https://api.whatsapp.com/send?phone=6282112912033&text=Hallo Gourmet Chef..."><img src="{{ asset('/images/whatsapp2.png') }}" width="100%" alt=""></a>
                 <a href="https://www.instagram.com/gourmetchef_counsultant/"><img src="{{ asset('/images/instagram.png') }}" width="100%" alt=""></a>
                 <a href="https://facebook.com"><img src="{{ asset('/images/facebook.png') }}" width="100%" alt=""></a>
             </div>

@@ -239,6 +239,8 @@
 
             <div class="col-md-12 text-center section-space">
             </div>
+
+            <a id="contactButton" href="https://api.whatsapp.com/send?phone=6282112912033&text=Hallo Gourmet Chef..." class="whatsapp position-fixed"><img src="{{ asset('/images/whatsapp_original.png') }}"  width="55px" alt=""></a>
         </div>
     </section>
 
