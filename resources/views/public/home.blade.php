@@ -26,6 +26,16 @@
         src="https://www.facebook.com/tr?id=630192937503542&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 831848796 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-831848796"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-831848796');
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -240,7 +250,7 @@
             <div class="col-md-12 text-center section-space">
             </div>
 
-            <a id="contactButton" href="https://api.whatsapp.com/send?phone=6282112912033&text=Hallo Gourmet Chef..." class="whatsapp position-fixed"><img src="{{ asset('/images/whatsapp_original.png') }}"  width="55px" alt=""></a>
+            <div id="contactButton" onClick="gtag_report_conversion('https://api.whatsapp.com/send?phone=6282112912033&text=Hallo Gourmet Chef...')" class="whatsapp position-fixed"><img src="{{ asset('/images/whatsapp_original.png') }}"  width="55px" alt=""></div>
         </div>
     </section>
 
@@ -249,6 +259,20 @@
     <script src="{{ mix('js/app.js') }}"></script>
     <script>
     fbq('track', 'ViewContent');
+
+
+    function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof(url) != 'undefined') {
+            window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-831848796/iCxjCJ_-lboBENyC1IwD',
+            'event_callback': callback
+        });
+        return false;
+    }
     </script>      
 </body>
 </html>
